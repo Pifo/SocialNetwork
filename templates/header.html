@@ -1,0 +1,49 @@
+<!-- header -->
+<header class="header" id="header">
+
+    <!-- user header -->
+    <div class="image-container">
+        <img src="{{picture}}" class="thumbnail" />
+    </div>
+
+    <div class="summary-container">
+        <h2 class="myH">Hello, {{name}}!</h2>
+    </div>
+
+    <nav class="navbar navbar-default">
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav">
+                <li><a href="#/user/home">Home</a></li>
+                <li><a href="#/users/edit-profile">Edit profile</a></li>
+                <li><a href="#/user/post">Post</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav pull-right">
+
+                <li><a class="navbar-brand">{{username}}</a></li>
+                <li><a href="#/logout">Logout</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- end of user header -->
+
+
+
+</header>
+<!-- end of header -->
+<div id="viewPost"></div>

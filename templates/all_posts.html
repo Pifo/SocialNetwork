@@ -1,0 +1,26 @@
+
+<article class="post well">
+
+    {{#results}}
+    <header class="post-header">
+
+        <div class="post-image">
+            <img src="{{myPicture}}" class="mini-thumbnail" />
+        </div>
+
+
+        <div class="post-info">
+            <p><a href="#/user/get-user/{{objectId}}"  id="userInfo"> {{myUsername}}</a> made a post</p>
+            <p>on <time>{{myDate}}</time></p>
+
+            <div id="tooltip"></div>
+        </div>
+
+    </header>
+
+    <section class="post-content">
+        <p>{{content}}</p>
+    </section>
+    {{/results}}
+
+</article>
